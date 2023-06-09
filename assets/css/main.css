@@ -2600,7 +2600,7 @@ input, select, textarea {
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 8em 4em;
+		padding: 4em 8em;
 		position: fixed;
 		text-align: right;
 		top: 0;
@@ -2616,10 +2616,10 @@ input, select, textarea {
 		}
 
 		#header > .inner {
-			-moz-flex-grow: 1;
-			-webkit-flex-grow: 1;
-			-ms-flex-grow: 1;
-			flex-grow: 1;
+			-moz-flex-grow: .5;
+			-webkit-flex-grow: .5;
+			-ms-flex-grow: .5;
+			flex-grow: .5;
 			margin: 0 0 2em 0;
 		}
 
