@@ -2800,10 +2800,49 @@ input, select, textarea {
 
 	@media screen and (max-width: 1800px) {
 
-		/* Basic */
+		<!--/* Basic */
 
 			body, input, select, textarea {
 				font-size: 12pt;
+			}-->
+
+		/* Header */
+
+			#header {
+				padding: 3em 1.5em 3em 1.5em;
+				width: 15%;
+				text-align: left;
+			}
+
+				#header h1 {
+					font-size: 1.25em;
+				}
+
+					#header h1 br {
+						display: none;
+					}
+
+				#header > .inner {
+					margin-bottom: 0;
+				}
+
+		/* Footer */
+
+			#footer .copyright li {
+				border-left-width: 0;
+				display: block;
+				line-height: 2.25em;
+				margin-left: 0;
+				padding-left: 0;
+			}
+
+		/* Main */
+
+			#main {
+				margin-left: 20%;
+				max-width: none;
+				padding: 3em 4em 3em 2em;
+				width: calc(100% - 20%);
 			}
 
 	}
