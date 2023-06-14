@@ -2420,9 +2420,9 @@ input, select, textarea {
 		left: 0;
 		padding: 8em 4em;
 		position: fixed;
-		text-align: right;
+		text-align: left;
 		top: 0;
-		width: 35%;
+		width: 15%;
 	}
 
 		#header > * {
@@ -2500,10 +2500,10 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 25%;
+		margin-left: 20%;
 		max-width: 54em;
 		padding: 8em 8em 4em 4em;
-		width: calc(100% - 25%);
+		width: calc(100% - 20%);
 	}
 
 		#main > section {
@@ -2800,11 +2800,11 @@ input, select, textarea {
 
 	@media screen and (max-width: 1800px) {
 
-		<!--/* Basic */
+		/* Basic */
 
 			body, input, select, textarea {
 				font-size: 12pt;
-			}-->
+			}
 
 		/* Header */
 
@@ -2841,7 +2841,7 @@ input, select, textarea {
 			#main {
 				margin-left: 20%;
 				max-width: none;
-				padding: 3em 4em 3em 2em;
+				padding: 8em 8em 4em 4em;
 				width: calc(100% - 20%);
 			}
 
@@ -2886,7 +2886,7 @@ input, select, textarea {
 			#main {
 				margin-left: 20%;
 				max-width: none;
-				padding: 3em 4em 3em 2em;
+				padding: 8em 8em 4em 4em;
 				width: calc(100% - 20%);
 			}
 
