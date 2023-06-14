@@ -2500,10 +2500,10 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 30%;
+		margin-left: 25%;
 		max-width: 54em;
 		padding: 8em 8em 4em 4em;
-		width: calc(100% - 30%);
+		width: calc(100% - 25%);
 	}
 
 		#main > section {
