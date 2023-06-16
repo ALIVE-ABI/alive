@@ -74,7 +74,7 @@ input, select, textarea {
 
 /* Basic */
 
-/* 	html {
+	html {
 		box-sizing: border-box;
 	}
 
@@ -239,7 +239,7 @@ input, select, textarea {
 
 	.align-right {
 		text-align: right;
-	} */
+	}
 
 /* Container */
 
