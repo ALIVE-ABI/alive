@@ -1860,7 +1860,6 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
-		background-color: none !important;
 	}
 
 		.image:before {
@@ -1920,7 +1919,6 @@ input, select, textarea {
 		.image img {
 			border-radius: 0.35em;
 			display: block;
-			background-color: none !important;
 		}
 
 		.image.left {
@@ -1947,7 +1945,6 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
-			background-color: none !important;
 		}
 
 			.image.fit img {
