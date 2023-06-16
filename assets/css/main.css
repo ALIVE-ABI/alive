@@ -2059,7 +2059,7 @@ input, select, textarea {
 
 /* Actions */
 
-/* 	ul.actions {
+	ul.actions {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2177,7 +2177,7 @@ input, select, textarea {
 							margin-left: -0.5em;
 						}
 
-		} */
+		}
 
 /* Table */
 
