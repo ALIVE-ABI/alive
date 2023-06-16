@@ -1797,7 +1797,7 @@ input, select, textarea {
 
 /* Box */
 
-/* 	.box {
+	.box {
 		border-radius: 0.35em;
 		border: solid 2px #efefef;
 		margin-bottom: 2em;
@@ -1814,7 +1814,7 @@ input, select, textarea {
 			border: 0;
 			border-radius: 0;
 			padding: 0;
-		} */
+		}
 
 /* Icon */
 
