@@ -2499,7 +2499,7 @@ input, select, textarea {
 
 /* Main */
 
-/* 	#main {
+	#main {
 		margin-left: 20%;
 		max-width: 54em;
 		padding: 8em 8em 4em 4em;
@@ -2517,7 +2517,7 @@ input, select, textarea {
 				margin-top: 0;
 				padding-top: 0;
 			}
- */
+
 /* Poptrox */
 
 	@-moz-keyframes spin {
