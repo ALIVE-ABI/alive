@@ -1818,7 +1818,7 @@ input, select, textarea {
 
 /* Icon */
 
-/* 	.icon {
+	.icon {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
@@ -1851,7 +1851,7 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
-		} */
+		}
 
 /* Image */
 
