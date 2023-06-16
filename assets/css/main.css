@@ -2007,7 +2007,7 @@ input, select, textarea {
  */
 /* Icons */
 
-/* 	ul.icons {
+	ul.icons {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
@@ -2025,10 +2025,10 @@ input, select, textarea {
 			ul.icons li .icon:before {
 				font-size: 1.5em;
 			}
- */
+
 /* Labeled Icons */
 
-/* 	ul.labeled-icons {
+	ul.labeled-icons {
 		list-style: none;
 		padding: 0;
 	}
@@ -2056,7 +2056,7 @@ input, select, textarea {
 				top: 0;
 				width: 1em;
 			}
- */
+
 /* Actions */
 
 /* 	ul.actions {
