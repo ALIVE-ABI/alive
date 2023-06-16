@@ -292,7 +292,7 @@ input, select, textarea {
 
 /* Row */
 
-/* 	.row {
+ 	.row {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
@@ -1756,7 +1756,7 @@ input, select, textarea {
 							padding-top: 3em;
 						}
 
-		} */
+		}
 
 /* Section/Article */
 
