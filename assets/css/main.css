@@ -1760,7 +1760,7 @@ input, select, textarea {
 
 /* Section/Article */
 
-/* 	section.special, article.special {
+	section.special, article.special {
 		text-align: center;
 	}
 
@@ -1792,7 +1792,7 @@ input, select, textarea {
 
 	header.major h2 {
 		font-size: 2em;
-	} */
+	}
 
 
 /* Box */
