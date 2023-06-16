@@ -1966,7 +1966,7 @@ input, select, textarea {
 
 /* List */
 
-/* 	ol {
+	ol {
 		list-style: decimal;
 		margin: 0 0 2em 0;
 		padding-left: 1.25em;
@@ -2004,7 +2004,7 @@ input, select, textarea {
 	dl {
 		margin: 0 0 2em 0;
 	}
- */
+
 /* Icons */
 
 	ul.icons {
