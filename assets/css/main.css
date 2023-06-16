@@ -1855,7 +1855,7 @@ input, select, textarea {
 
 /* Image */
 
-	.image {
+	<!--.image {
 		border-radius: 0.35em;
 		border: 0;
 		display: inline-block;
@@ -1962,7 +1962,7 @@ input, select, textarea {
 			.image.avatar img {
 				border-radius: 100%;
 				width: 100%;
-			}
+			}-->
 
 /* List */
 
