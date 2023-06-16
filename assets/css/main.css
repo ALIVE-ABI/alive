@@ -1,5 +1,5 @@
 /* @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic"); */
 
 /*
 	Strata by HTML5 UP
@@ -7,7 +7,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-html, body, div, span, applet, object,
+/* html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
@@ -70,11 +70,11 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
-}
+} */
 
 /* Basic */
 
-	html {
+/* 	html {
 		box-sizing: border-box;
 	}
 
@@ -239,11 +239,11 @@ input, select, textarea {
 
 	.align-right {
 		text-align: right;
-	}
+	} */
 
 /* Container */
 
-	.container {
+/* 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
 		width: 100%;
@@ -288,11 +288,11 @@ input, select, textarea {
 				max-width: calc(100% - 3em);
 			}
 
-		}
+		} */
 
 /* Row */
 
-	.row {
+/* 	.row {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
@@ -1756,11 +1756,11 @@ input, select, textarea {
 							padding-top: 3em;
 						}
 
-		}
+		} */
 
 /* Section/Article */
 
-	section.special, article.special {
+/* 	section.special, article.special {
 		text-align: center;
 	}
 
@@ -1792,12 +1792,12 @@ input, select, textarea {
 
 	header.major h2 {
 		font-size: 2em;
-	}
+	} */
 
 
 /* Box */
 
-	.box {
+/* 	.box {
 		border-radius: 0.35em;
 		border: solid 2px #efefef;
 		margin-bottom: 2em;
@@ -1814,11 +1814,11 @@ input, select, textarea {
 			border: 0;
 			border-radius: 0;
 			padding: 0;
-		}
+		} */
 
 /* Icon */
 
-	.icon {
+/* 	.icon {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
@@ -1851,11 +1851,11 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
-		}
+		} */
 
-/* /* Image */
+/* Image */
 
-	.image {
+/* 	.image {
 		border-radius: 0.35em;
 		border: 0;
 		display: inline-block;
@@ -1962,11 +1962,11 @@ input, select, textarea {
 			.image.avatar img {
 				border-radius: 100%;
 				width: 100%;
-			} */
+			} */ 
 
 /* List */
 
-	ol {
+/* 	ol {
 		list-style: decimal;
 		margin: 0 0 2em 0;
 		padding-left: 1.25em;
@@ -2004,10 +2004,10 @@ input, select, textarea {
 	dl {
 		margin: 0 0 2em 0;
 	}
-
+ */
 /* Icons */
 
-	ul.icons {
+/* 	ul.icons {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
@@ -2025,10 +2025,10 @@ input, select, textarea {
 			ul.icons li .icon:before {
 				font-size: 1.5em;
 			}
-
+ */
 /* Labeled Icons */
 
-	ul.labeled-icons {
+/* 	ul.labeled-icons {
 		list-style: none;
 		padding: 0;
 	}
@@ -2056,10 +2056,10 @@ input, select, textarea {
 				top: 0;
 				width: 1em;
 			}
-
+ */
 /* Actions */
 
-	ul.actions {
+/* 	ul.actions {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2177,11 +2177,11 @@ input, select, textarea {
 							margin-left: -0.5em;
 						}
 
-		}
+		} */
 
 /* Table */
 
-	.table-wrapper {
+/* 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
 	}
@@ -2245,11 +2245,11 @@ input, select, textarea {
 
 			table.alt tfoot {
 				border-top: 0;
-			}
+			} */
 
 /* Button */
 
-	input[type="submit"],
+/* 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
 	.button {
@@ -2367,18 +2367,18 @@ input, select, textarea {
 			border-color: #e7e7e7 !important;
 			color: #b2b2b2 !important;
 			cursor: default;
-		}
+		} */
 
 /* Work Item */
 
-	.work-item {
+/* 	.work-item {
 		margin: 0 0 2em 0;
 	}
 
-/* 		.work-item .image {
+		.work-item .image {
 			margin: 0 0 1.5em 0;
 		}
- */
+
 		.work-item h3 {
 			font-size: 1em;
 			margin: 0 0 0.5em 0;
@@ -2389,10 +2389,10 @@ input, select, textarea {
 			line-height: 1.5em;
 			margin: 0;
 		}
-
+ */
 /* Header */
 
-	#header {
+/* 	#header {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2411,7 +2411,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-/* 		background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
+		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2423,9 +2423,9 @@ input, select, textarea {
 		text-align: left;
 		top: 0;
 		width: 15%;
-	}
+	} */
 
-		#header > * {
+/* 		#header > * {
 			-moz-flex-shrink: 0;
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
@@ -2454,16 +2454,16 @@ input, select, textarea {
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
-		}
+		} 
 
-/* 		#header .image.avatar {
+		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em; */
-		}
+			width: 6.25em;
+		} */
 
 /* Footer */
 
-	#footer .icons {
+/* 	#footer .icons {
 		margin: 1em 0 0 0;
 	}
 
@@ -2495,11 +2495,11 @@ input, select, textarea {
 
 			#footer .copyright li a {
 				color: inherit;
-			}
+			} */
 
 /* Main */
 
-	#main {
+/* 	#main {
 		margin-left: 20%;
 		max-width: 54em;
 		padding: 8em 8em 4em 4em;
@@ -2517,10 +2517,10 @@ input, select, textarea {
 				margin-top: 0;
 				padding-top: 0;
 			}
-
+ */
 /* Poptrox */
 
-	@-moz-keyframes spin {
+/* 	@-moz-keyframes spin {
 		0% {
 			-moz-transform: rotate(0deg);
 			-webkit-transform: rotate(0deg);
@@ -2773,7 +2773,7 @@ input, select, textarea {
 
 			.poptrox-popup:hover .closer:hover {
 				opacity: 1.0;
-			}
+			} */
 
 /* Touch */
 
@@ -2783,7 +2783,7 @@ input, select, textarea {
 
 	body.is-touch .image.thumb:after {
 		display: none !important;
-	} */
+	}
 
 	body.is-touch #header {
 		background-attachment: scroll;
@@ -2794,21 +2794,21 @@ input, select, textarea {
 	body.is-touch .poptrox-popup .nav-previous,
 	body.is-touch .poptrox-popup .closer {
 		opacity: 1.0 !important;
-	}
+	} */
 
 /* XLarge */
 
-	@media screen and (max-width: 1800px) {
+/* 	@media screen and (max-width: 1800px) { */
 
 		/* Basic */
 
-			body, input, select, textarea {
+/* 			body, input, select, textarea {
 				font-size: 12pt;
 			}
-
+ */
 		/* Header */
 
-			#header {
+/* 			#header {
 				padding: 3em 1.5em 3em 1.5em;
 				width: 15%;
 				text-align: left;
@@ -2825,20 +2825,20 @@ input, select, textarea {
 				#header > .inner {
 					margin-bottom: 0;
 				}
-
+ */
 		/* Footer */
 
-			#footer .copyright li {
+/* 			#footer .copyright li {
 				border-left-width: 0;
 				display: block;
 				line-height: 2.25em;
 				margin-left: 0;
 				padding-left: 0;
-			}
+			} */
 
 		/* Main */
 
-			#main {
+/* 			#main {
 				margin-left: 20%;
 				max-width: none;
 				padding: 8em 8em 4em 4em;
@@ -2846,14 +2846,14 @@ input, select, textarea {
 			}
 
 	}
-
+ */
 /* Large */
 
-	@media screen and (max-width: 1280px) {
+/* 	@media screen and (max-width: 1280px) { */
 
 		/* Header */
 
-			#header {
+/* 			#header {
 				padding: 3em 1.5em 3em 1.5em;
 				width: 15%;
 				text-align: left;
@@ -2870,20 +2870,20 @@ input, select, textarea {
 				#header > .inner {
 					margin-bottom: 0;
 				}
-
+ */
 		/* Footer */
 
-			#footer .copyright li {
+/* 			#footer .copyright li {
 				border-left-width: 0;
 				display: block;
 				line-height: 2.25em;
 				margin-left: 0;
 				padding-left: 0;
 			}
-
+ */
 		/* Main */
 
-			#main {
+/* 			#main {
 				margin-left: 20%;
 				max-width: none;
 				padding: 8em 8em 4em 4em;
@@ -2891,26 +2891,26 @@ input, select, textarea {
 			}
 
 	}
-
+ */
 /* Medium */
 
-	@media screen and (max-width: 980px) {
+/* 	@media screen and (max-width: 980px) { */
 
 		/* Basic */
 
-			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
+/* 			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
 				display: none;
-			}
+			} */
 
 		/* List */
 
-			ul.icons li .icon {
+/* 			ul.icons li .icon {
 				font-size: 1.25em;
 			}
-
+ */
 		/* Header */
 
-			#header {
+/* 			#header {
 				background-attachment: scroll;
 				background-position: top left, center center;
 				background-size: auto,		cover;
@@ -2930,13 +2930,13 @@ input, select, textarea {
 					#header h1 br {
 						display: inline;
 					}
-
+ */
 		/* Footer */
 
-			#footer {
+/* 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-/* 				background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
+				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
@@ -2963,24 +2963,24 @@ input, select, textarea {
 						margin-left: 0.75em;
 						padding-left: 0.75em;
 					}
-
+ */
 		/* Main */
 
-			#main {
+/* 			#main {
 				margin: 0;
 				padding: 6em 4em;
 				width: 100%;
 			}
 
-	}
+	} */
 
 /* Small */
 
-	@media screen and (max-width: 736px) {
+/* 	@media screen and (max-width: 736px) { */
 
 		/* Basic */
 
-			h1 {
+/* 			h1 {
 				font-size: 1.5em;
 			}
 
@@ -2990,58 +2990,58 @@ input, select, textarea {
 
 			h3 {
 				font-size: 1em;
-			}
+			} */
 
 		/* Section/Article */
 
-			section.special, article.special {
+/* 			section.special, article.special {
 				text-align: center;
 			}
 
 			header.major h2 {
 				font-size: 1.35em;
 			}
-
+ */
 		/* List */
 
-			ul.labeled-icons li {
+/* 			ul.labeled-icons li {
 				padding-left: 2em;
 			}
 
 				ul.labeled-icons li h3 {
 					line-height: 1.75em;
 				}
-
+ */
 		/* Header */
 
-			#header {
+/* 			#header {
 				padding: 2.25em 1.5em;
 			}
 
 				#header h1 {
 					font-size: 1.35em;
 				}
-
+ */
 		/* Footer */
 
-			#footer {
+/* 			#footer {
 				padding: 2.25em 1.5em;
-			}
+			} */
 
 		/* Main */
 
-			#main {
+/* 			#main {
 				padding: 2.25em 1.5em 0.25em 1.5em;
 			}
 
 				#main > section {
 					margin: 2.25em 0 0 0;
 					padding: 2.25em 0 0 0;
-				}
+				} */
 
 		/* Poptrox */
 
-			.poptrox-popup {
+/* 			.poptrox-popup {
 				border-radius: 0;
 			}
 
@@ -3051,24 +3051,24 @@ input, select, textarea {
 				}
 
 	}
-
+ */
 /* XSmall */
 
-	@media screen and (max-width: 480px) {
+/* 	@media screen and (max-width: 480px) { */
 
 		/* Header */
 
-			#header {
+/* 			#header {
 				padding: 4.5em 1.5em;
 			}
 
 				#header h1 br {
 					display: none;
-				}
+				} */
 
 		/* Footer */
 
-			#footer .copyright li {
+/* 			#footer .copyright li {
 				border-left-width: 0;
 				display: block;
 				line-height: 2.25em;
@@ -3077,4 +3077,5 @@ input, select, textarea {
 			}
 
 	}
+
  */
