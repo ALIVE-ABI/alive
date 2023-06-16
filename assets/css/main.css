@@ -2249,7 +2249,7 @@ input, select, textarea {
 
 /* Button */
 
-/* 	input[type="submit"],
+	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
 	.button {
@@ -2367,11 +2367,11 @@ input, select, textarea {
 			border-color: #e7e7e7 !important;
 			color: #b2b2b2 !important;
 			cursor: default;
-		} */
+		}
 
 /* Work Item */
 
-/* 	.work-item {
+	.work-item {
 		margin: 0 0 2em 0;
 	}
 
@@ -2389,7 +2389,7 @@ input, select, textarea {
 			line-height: 1.5em;
 			margin: 0;
 		}
- */
+
 /* Header */
 
 /* 	#header {
