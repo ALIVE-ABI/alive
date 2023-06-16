@@ -1853,9 +1853,9 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
-/* Image */
+/* /* Image */
 
-	<!--.image {
+	.image {
 		border-radius: 0.35em;
 		border: 0;
 		display: inline-block;
@@ -1962,7 +1962,7 @@ input, select, textarea {
 			.image.avatar img {
 				border-radius: 100%;
 				width: 100%;
-			}-->
+			} */
 
 /* List */
 
@@ -2375,10 +2375,10 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-		.work-item .image {
+/* 		.work-item .image {
 			margin: 0 0 1.5em 0;
 		}
-
+ */
 		.work-item h3 {
 			font-size: 1em;
 			margin: 0 0 0.5em 0;
@@ -2411,7 +2411,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+/* 		background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2456,9 +2456,9 @@ input, select, textarea {
 			margin: 0;
 		}
 
-		#header .image.avatar {
+/* 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 6.25em; */
 		}
 
 /* Footer */
@@ -2777,13 +2777,13 @@ input, select, textarea {
 
 /* Touch */
 
-	body.is-touch .image.thumb:before {
+/* 	body.is-touch .image.thumb:before {
 		opacity: 0.5 !important;
 	}
 
 	body.is-touch .image.thumb:after {
 		display: none !important;
-	}
+	} */
 
 	body.is-touch #header {
 		background-attachment: scroll;
@@ -2936,7 +2936,7 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+/* 				background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
