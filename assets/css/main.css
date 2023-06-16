@@ -2798,17 +2798,17 @@ input, select, textarea {
 
 /* XLarge */
 
-/* 	@media screen and (max-width: 1800px) { */
+	@media screen and (max-width: 1800px) {
 
 		/* Basic */
 
-/* 			body, input, select, textarea {
+			body, input, select, textarea {
 				font-size: 12pt;
 			}
- */
+
 		/* Header */
 
-/* 			#header {
+			#header {
 				padding: 3em 1.5em 3em 1.5em;
 				width: 15%;
 				text-align: left;
@@ -2825,20 +2825,20 @@ input, select, textarea {
 				#header > .inner {
 					margin-bottom: 0;
 				}
- */
+
 		/* Footer */
 
-/* 			#footer .copyright li {
+			#footer .copyright li {
 				border-left-width: 0;
 				display: block;
 				line-height: 2.25em;
 				margin-left: 0;
 				padding-left: 0;
-			} */
+			}
 
 		/* Main */
 
-/* 			#main {
+			#main {
 				margin-left: 20%;
 				max-width: none;
 				padding: 8em 8em 4em 4em;
@@ -2846,14 +2846,14 @@ input, select, textarea {
 			}
 
 	}
- */
+
 /* Large */
 
-/* 	@media screen and (max-width: 1280px) { */
+	@media screen and (max-width: 1280px) {
 
 		/* Header */
 
-/* 			#header {
+			#header {
 				padding: 3em 1.5em 3em 1.5em;
 				width: 15%;
 				text-align: left;
@@ -2870,20 +2870,20 @@ input, select, textarea {
 				#header > .inner {
 					margin-bottom: 0;
 				}
- */
+
 		/* Footer */
 
-/* 			#footer .copyright li {
+			#footer .copyright li {
 				border-left-width: 0;
 				display: block;
 				line-height: 2.25em;
 				margin-left: 0;
 				padding-left: 0;
 			}
- */
+
 		/* Main */
 
-/* 			#main {
+			#main {
 				margin-left: 20%;
 				max-width: none;
 				padding: 8em 8em 4em 4em;
@@ -2891,26 +2891,26 @@ input, select, textarea {
 			}
 
 	}
- */
+
 /* Medium */
 
-/* 	@media screen and (max-width: 980px) { */
+	@media screen and (max-width: 980px) {
 
 		/* Basic */
 
-/* 			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
+			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
 				display: none;
-			} */
+			}
 
 		/* List */
 
-/* 			ul.icons li .icon {
+			ul.icons li .icon {
 				font-size: 1.25em;
 			}
- */
+
 		/* Header */
 
-/* 			#header {
+			#header {
 				background-attachment: scroll;
 				background-position: top left, center center;
 				background-size: auto,		cover;
@@ -2930,10 +2930,10 @@ input, select, textarea {
 					#header h1 br {
 						display: inline;
 					}
- */
+
 		/* Footer */
 
-/* 			#footer {
+			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
 				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
@@ -2963,16 +2963,16 @@ input, select, textarea {
 						margin-left: 0.75em;
 						padding-left: 0.75em;
 					}
- */
+
 		/* Main */
 
-/* 			#main {
+			#main {
 				margin: 0;
 				padding: 6em 4em;
 				width: 100%;
 			}
 
-	} */
+	}
 
 /* Small */
 
