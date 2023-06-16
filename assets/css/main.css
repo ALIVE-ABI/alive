@@ -2520,7 +2520,7 @@ input, select, textarea {
  */
 /* Poptrox */
 
-/* 	@-moz-keyframes spin {
+	@-moz-keyframes spin {
 		0% {
 			-moz-transform: rotate(0deg);
 			-webkit-transform: rotate(0deg);
@@ -2773,11 +2773,11 @@ input, select, textarea {
 
 			.poptrox-popup:hover .closer:hover {
 				opacity: 1.0;
-			} */
+			}
 
 /* Touch */
 
-/* 	body.is-touch .image.thumb:before {
+	body.is-touch .image.thumb:before {
 		opacity: 0.5 !important;
 	}
 
@@ -2794,7 +2794,7 @@ input, select, textarea {
 	body.is-touch .poptrox-popup .nav-previous,
 	body.is-touch .poptrox-popup .closer {
 		opacity: 1.0 !important;
-	} */
+	}
 
 /* XLarge */
 
