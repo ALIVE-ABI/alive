@@ -1943,7 +1943,6 @@ input, select, textarea {
 
 		.image.fit {
 /* 			display: block; */
-			display: none;
 			margin: 0 0 2em 0;
 			width: 100%;
 		}
