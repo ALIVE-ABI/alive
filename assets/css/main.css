@@ -1879,7 +1879,7 @@ input, select, textarea {
 			width: 100%;
 		}
 
-/* 		.image.thumb { 
+ 		.image.thumb { 
 			text-align: center;
 		}
 
@@ -1921,7 +1921,7 @@ input, select, textarea {
 			display: block;
 		}
 
-		.image.left {
+/* 		.image.left { 
 			float: left;
 			margin: 0 1.5em 1em 0;
 			top: 0.25em;
