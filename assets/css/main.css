@@ -122,7 +122,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #000000;
+		color: #303030;
 		font-weight: 400;
 	}
 
@@ -135,7 +135,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #000000;
+		color: #303030;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -1799,7 +1799,7 @@ input, select, textarea {
 
 	.box {
 		border-radius: 0.35em;
-		border: solid 2px #efefef;
+		border: solid 2px #a2a2a2;
 		margin-bottom: 2em;
 		padding: 1.5em;
 	}
@@ -1995,7 +1995,7 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 2px #efefef;
+				border-top: solid 2px #a2a2a2;
 				padding: 0.5em 0;
 			}
 
@@ -2510,7 +2510,7 @@ input, select, textarea {
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px #a2a2a2;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
