@@ -29,6 +29,26 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+.user-description-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.user-links {
+	margin-top: -1em;
+}
+
+.user-email {
+	margin-top: -1.5em;
+}
+
+.user-links-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
 body {
 	line-height: 1;
 }
