@@ -29,9 +29,17 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+.custom-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
 .user-description-container {
 	display: flex;
 	flex-direction: column;
+	padding-left: 2em;
 }
 
 .user-links {
