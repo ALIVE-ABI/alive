@@ -37,7 +37,7 @@
 					<h2>Available Code</h2>
 					<p>Python script for downloading and processing GOES-R data</p>
 				</header>
-				<p> <span class="actions"><a href="https://jupyter.org/" class="image avatar image left"><img src="images/jupyter.jpg" style="width:60px; height:60px" /></a></span> <span class="actions"><a href="https://colab.google/" class="image avatar image left"><img src="images/google_colab_icon.jpg" style="width:60px; height:60px" /></a></span>   Code created by	<span class="actions"><a href=people.html target=“_self” >Danielle Losos</a></span>	using Google Colab and Jupyter Notebooks to process a sample of GOES-R surface products, including a calculation of the Normalized Difference Vegetation Index (NDVI) and the Near Infrared Reflectance of Vegetation (NIRv) from surface reflectances, as well as an estimate of Photosynthetically Active Radiation (PAR) and NIRv from the Downward Shortwave Radiation (DSR).  The data repositories required for processing can be found through the Ameriflux network and the gcp-public-data-goes-16 bucket available on Google Cloud, shown below.</p>
+				<p> <span class="actions"><a href="https://jupyter.org/" class="image avatar image left"><img src="images/jupyter.jpg" style="width:60px; height:60px" /></a></span> <span class="actions"><a href="https://colab.google/" class="image avatar image left"><img src="images/google_colab_icon.jpg" style="width:60px; height:60px" /></a></span>   Code created by	<span class="actions"><a href=people.html target=“_self” >Danielle Losos</a></span>	using Google Colab and Jupyter Notebooks to process a sample of GOES-R surface products, including a calculation of the Normalized Difference Vegetation Index (NDVI) and the Near Infrared Reflectance of Vegetation (NIRv) from surface reflectances, as well as an estimate of Photosynthetically Active Radiation (PAR) from the Downward Shortwave Radiation (DSR). The data repositories required for processing can be found through the Ameriflux network and the gcp-public-data-goes-16 bucket available on Google Cloud, shown below.</p>
 			</section>
 		</div>
 		<div class="row">
@@ -66,7 +66,7 @@
 				<header>
 					<h4>GOES_ABI_LandSurfaceProduct_Downloads.ipynb</h4>
 				</header>
-				<p>ABI_LandSurfaceProducts_Download samples several GOES-R surface data products (including Surface Reflection, Temperature, and Downward Shortwave Radiation) at point locations, effectively converting stacks of images into time-series stored in csv files. This code loops through each product at each point location at every timestamp in a given year.</p>
+				<p>ABI_LandSurfaceProducts_Download samples several GOES-R surface data products including surface reflectances (BRF), land surface temperature (LST), and downward shortwave radiation (DSR) at eddy covariance tower locations, effectively converting stacks of images into time-series stored as csv files. This code loops through each product at each tower location at every timestamp for a given year.</p>
 				<ul class="actions">
 					<li><a href="https://github.com/ALIVE-ABI/alive/blob/main/GOES_ABI_LandSurfaceProduct_Downloads.ipynb" class="button primary">View Code</a></li>
 				</ul>
@@ -74,7 +74,7 @@
 				<header>
 					<h4>GOES_Download.ipynb</h4>
 				</header>
-				<p>GOES_Download is an introductory code that shows how to download large batches of GOES-R data product files using either command line or python.</p>
+				<p>GOES_Download is an introduction to downloading large batches of GOES-R data product files using either command line or python.</p>
 				<ul class="actions">
 					<li><a href="https://github.com/ALIVE-ABI/alive/blob/main/GOES_Download.ipynb" class="button primary">View Code</a></li>
 				</ul>
