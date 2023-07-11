@@ -62,11 +62,13 @@ footer, header, hgroup, menu, nav, section {
 		flex-wrap: wrap;
 
 		.video-screen {
-			min-width: 100%; 
-			min-height: 100%;
-			object-fit: cover;
-			top: 0;
-			left: 0;
+			width: auto !important;
+		        height: auto !important; 
+			min-width: 100% !important; 
+			min-height: 100% !important;
+			object-fit: cover !important;
+			margin-left: 2em;
+			margin-right: 2em;
 		}
 
 		.video-text {
