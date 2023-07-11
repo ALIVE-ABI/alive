@@ -17,7 +17,7 @@
 	<header id="header">
 		<div class="inner" >
 			<ul class="alt" >
-				<li><a href="#" class="image avatar image center" style="width:140px; height:140px"><img src="images/sites.jpg" /></a></li>
+				<li><a href="#" class="image avatar image center" style="width:140px; height:140px; max-width: 100%;"><img src="images/sites.jpg" /></a></li>
 				<li><a href=index.html target=“_self” style="align-items: center; display: flex; flex-direction: column;">Home</a></li>
 				<li><a href=code.html target=“_self” style="align-items: center; display: flex; flex-direction: column;">Code</a></li>
 				<li><a href=datasets.html target=“_self” style="align-items: center; display: flex; flex-direction: column;">Datasets</a></li>
@@ -31,49 +31,68 @@
 	<!-- Main -->
 	<div id="main">    
 		<div class="row" style="justify-content: flex-start">
-			<section id="one">
+			<section>
 				<header class="major">
 					<h2>Environmental Data Initiative</h2>
 					<p>GOES-R Land Surface Products at AmeriFlux and NEON, Inc. Eddy Covariance Tower Locations</p>
 				</header>
-				<p>The terrestrial carbon cycle varies dynamically over short periods that can be difficult to observe. Geostationary (“weather”) satellites like the Geostationary Environmental Operational Satellite - R Series (GOES-R) deliver near-hemispheric imagery at a ten-minute cadence, and new imagers onboard like the Advanced Baseline Imager (ABI) measure visible and near-infrared spectral bands often to estimate land surface properties and carbon dioxide flux. GOES-R data are designed for real-time dissemination and are difficult to link with eddy covariance time series of land-atmosphere carbon dioxide exchange. We compiled time-series of GOES-R land surface attributes including visible and near-infrared reflectances, land surface temperature, and downwelling shortwave radiation (DSR) at 314 ABI fixed grid pixels containing eddy covariance towers from August 2021 through 2022. By connecting observation networks that infer rapid changes to the carbon cycle, we can gain a richer understanding of the processes that control it.</p>
-				<div class="image avatar image left">
-					<ul class="actions">
-						<li><a href="https://portal.edirepository.org/nis/mapbrowse?packageid=edi.1420.1" class="image avatar"><img src="images/EDI-logo.jpg" style="width:90px; height:90px" /></a></li> 
-					</ul>
-				</div>
-				<div class="row aln-right" style="text-align: left; justify-content: flex-start">
-					<h5>Losos, D., S. Hoffman, and P. Stoy. 2023. GOES-R Land Surface Products at AmeriFlux and NEON, Inc. Eddy Covariance Tower Locations ver 1. Environmental Data Initiative. (edi.1420.1) https://doi.org/10.6073/pasta/f4fc762b96934b4804270c028093681f (Published 2023-05-19).</h5>
-				</div>
-			
-			<hr />
+				<p>The terrestrial carbon cycle varies dynamically over short periods that can be difficult to observe. 
+					Geostationary (“weather”) satellites like the Geostationary Environmental Operational Satellite - R Series (GOES-R) deliver near-hemispheric imagery at a ten-minute cadence, 
+					and new imagers onboard like the Advanced Baseline Imager (ABI) measure visible and near-infrared spectral bands often to estimate land surface properties and carbon dioxide flux. 
+					GOES-R data are designed for real-time dissemination and are difficult to link with eddy covariance time series of land-atmosphere carbon dioxide exchange. 
+					We compiled time-series of GOES-R land surface attributes including visible and near-infrared reflectances, land surface temperature, and downwelling shortwave radiation (DSR) at 314 ABI fixed grid pixels containing eddy covariance towers from August 2021 through 2022. 
+					By connecting observation networks that infer rapid changes to the carbon cycle, we can gain a richer understanding of the processes that control it.</p>
 			</section>
+		</div>
+
+	<!-- Section -->
+
+		<div class="custom-row video-container" style="align-items: center;"> 
+			<div class="user-links-container">
+				<div>
+					<a href="https://portal.edirepository.org/nis/mapbrowse?packageid=edi.1420.1" class="image avatar image fit"><img src="images/EDI-logo.jpg" style="width:100px;height:100px; display: block; margin-left: auto; margin-right: auto;"/></a>
+				</div>
+			</div>
+			<div class="user-description-container video-text">
+				<h5> 
+					<span class="actions">
+					<a href="https://doi.org/10.6073/pasta/f4fc762b96934b4804270c028093681f"> 
+					Losos, D., S. Hoffman, and P. Stoy. 2023. GOES-R Land Surface Products at AmeriFlux and NEON, Inc. Eddy Covariance Tower Locations ver 1. Environmental Data Initiative. (edi.1420.1) (Published 2023-05-19).
+					</a>
+					</span>
+				</h5>
+			</div>
+		</div>
+		<hr>
+	
+	<!-- Section -->
+	
+		<div>
+			<header>
+				<h4>GOES-R_Ameriflux_site_info</h4>
+			</header>
+			<p>A list of each active AmeriFlux tower site and details including coordinates, local timezone, elevation, GOES-R observations, and ecological information.</p>
+			<ul class="actions">
+				<li><a href="https://portal.edirepository.org/nis/dataviewer?packageid=edi.1420.1&entityid=92a594aa90cfc20563aa1c11a0b23f9a" class="button primary icon solid fa-download">Download	(25.8 KiB)</a></li>
+			</ul>
+
+			<header>
+				<h4>example_file</h4>
+			</header>
+			<p>Metadata for variables present in 21-22_GOES-R_Ameriflux_datasets.</p>
+			<ul class="actions">
+				<li><a href="https://portal.edirepository.org/nis/dataviewer?packageid=edi.1420.1&entityid=55d4f21ee222651f2107167c99a6f225" class="button primary icon solid fa-download">Download	(348 B)</a></li>
+			</ul>
+
+			<header>
+				<h4>21-22_GOES-R_Ameriflux_datasets</h4>
+			</header>
+			<p>Time-series of GOES-R land surface attributes including visible and near-infrared reflectances, land surface temperature, and downwelling shortwave radiation at 314 ABI fixed grid pixels containing AmeriFlux eddy covariance towers between Aug. 2021-Dec. 2022.</p>
+			<ul class="actions">
+				<li><a href="https://portal.edirepository.org/nis/dataviewer?packageid=edi.1420.1&entityid=bbc73fae84e8990d5c922e2390f15c5a" class="button primary icon solid fa-download">Download	(516.1 MiB)</a></li>
+			</ul>
 			
-			<section id="two">
-				<header>
-					<h4>GOES-R_Ameriflux_site_info</h4>
-				</header>
-				<p>A list of each active AmeriFlux tower site and details including coordinates, local timezone, elevation, GOES-R observations, and ecological information.</p>
-				<ul class="actions">
-					<li><a href="https://portal.edirepository.org/nis/dataviewer?packageid=edi.1420.1&entityid=92a594aa90cfc20563aa1c11a0b23f9a" class="button primary icon solid fa-download">Download	(25.8 KiB)</a></li>
-				</ul>
-				<header>
-					<h4>example_file</h4>
-				</header>
-				<p>Metadata for variables present in 21-22_GOES-R_Ameriflux_datasets.</p>
-				<ul class="actions">
-					<li><a href="https://portal.edirepository.org/nis/dataviewer?packageid=edi.1420.1&entityid=55d4f21ee222651f2107167c99a6f225" class="button primary icon solid fa-download">Download	(348 B)</a></li>
-				</ul>
-				<header>
-					<h4>21-22_GOES-R_Ameriflux_datasets</h4>
-				</header>
-				<p>Time-series of GOES-R land surface attributes including visible and near-infrared reflectances, land surface temperature, and downwelling shortwave radiation at 314 ABI fixed grid pixels containing AmeriFlux eddy covariance towers between Aug. 2021-Dec. 2022.</p>
-				<ul class="actions">
-					<li><a href="https://portal.edirepository.org/nis/dataviewer?packageid=edi.1420.1&entityid=bbc73fae84e8990d5c922e2390f15c5a" class="button primary icon solid fa-download">Download	(516.1 MiB)</a></li>
-				</ul>
-				
-			</section>
-		</div>   
+		</div>
 	</div>
 	    
 	<!-- Footer -->
