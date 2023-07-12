@@ -58,8 +58,8 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .video-screen {
-	width: 40% !important;
-	height: auto !important; 
+/* 	width: 40% !important;
+	height: auto !important;  */
 }
 
 @media screen and (max-width: 800px) {
