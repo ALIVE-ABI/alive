@@ -58,6 +58,9 @@ footer, header, hgroup, menu, nav, section {
 }
 
 @media screen and (max-width: 800px) {
+	.image-center-phone {
+		align-items: center;
+		
 	.video-container {
 		flex-wrap: wrap;
 
