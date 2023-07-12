@@ -57,9 +57,9 @@ footer, header, hgroup, menu, nav, section {
 	align-items: center;
 }
 
-.video-screen {
+/* .video-screen {
 	height: 400em; 
-}
+} */
 
 @media screen and (max-width: 800px) {
 	.video-container {
