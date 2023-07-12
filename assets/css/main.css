@@ -68,7 +68,8 @@ footer, header, hgroup, menu, nav, section {
 
 		.video-screen {
 			max-width: 100% !important;
-		        max-height: 100% !important; 
+/* 		        max-height: 100% !important;  */
+			height: auto !important;
 		}
 
 		.video-text {
