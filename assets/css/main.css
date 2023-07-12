@@ -58,7 +58,6 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .video-screen {
-/* 	height="400em"  */
 	width: 40% !important;
 	height: auto !important; 
 }
