@@ -58,17 +58,18 @@ footer, header, hgroup, menu, nav, section {
 }
 
 /* .video-screen {
-	height: 400em; 
+	width: 40% !important;
+	height: auto !important; 
 } */
 
 @media screen and (max-width: 800px) {
 	.video-container {
 		flex-wrap: wrap;
 
-		.video-screen {
+/* 		.video-screen {
 			width: 40% !important;
 		        height: auto !important; 
-		}
+		} */
 
 		.video-text {
 			margin-top: 2em;
