@@ -57,18 +57,12 @@ footer, header, hgroup, menu, nav, section {
 	align-items: center;
 }
 
-/* .video-screen {
-	width: 100% !important;
-	height: auto !important; 
-} */
-
 @media screen and (max-width: 800px) {
 	.video-container {
 		flex-wrap: wrap;
 
 		.video-screen {
 			max-width: 100% !important;
-/* 		        max-height: 100% !important;  */
 			height: auto !important;
 		}
 
