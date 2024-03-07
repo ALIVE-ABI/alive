@@ -76,10 +76,8 @@ print(zarr.__version__)
 # In[5]:
 
 
-# DSRmodel = joblib.load('/Users/Sophie/Desktop/DSR_GBR_2024-02-27.pkl')
-# GPPmodel = joblib.load('/Users/Sophie/Desktop/GPP_GBR_2024-02-27.pkl')
-DSRmodel = joblib.load('/home/shoffman/DSR_GBR_2024-02-29.pkl')
-GPPmodel = joblib.load('/home/shoffman/GPP_GBR_2024-02-29.pkl')
+DSRmodel = joblib.load('/path/to/model.pkl')
+GPPmodel = joblib.load('/path/to/model.pkl')
 
 
 # In[6]:
@@ -668,7 +666,7 @@ def image_lists(product, year, day, hour, local_path, bucket_name):
 
 # In[11]:
 
-rd_path = '/mnt/researchdrive/pcstoy/ALIVE/'+year+'/'+str(doy).zfill(3)+'/'
+rd_path = '/path/to/researchdrive/'+year+'/'+str(doy).zfill(3)+'/'
 os.makedirs(rd_path, exist_ok=True)
 
 # Function to process a single image
@@ -778,11 +776,8 @@ def calcSolar (ds, dt):
 
 # In[13]:
 
-
-# os.makedirs('/Users/Sophie/Desktop/alive_test2/', exist_ok=True) # local
-# local_path = '/Users/Sophie/Desktop/alive_test2/'
-os.makedirs('/home/shoffman/alive_test/', exist_ok=True) # server
-local_path = '/home/shoffman/alive_test/'
+os.makedirs('/path/to/save/', exist_ok=True) # server
+local_path = '/path/to/save/'
 
 year = str(today).split('-')[0]
 year_str = str(year)
@@ -847,11 +842,6 @@ print(len(CMIimages))
 print(len(BRFimages))
 
 
-# In[ ]:
-
-#local_save_path = local_path+year_str+'/'+str(day_start).zfill(3)+'/'
-#os.makedirs(local_save_path, exist_ok=True)
-
 # In[15]:
 
 
@@ -891,8 +881,7 @@ for i, img in enumerate(aliveImages):
 cb = fig.colorbar(im, label = r'GPP $({\mu}{mol}$ ${CO_{2}}$ $m^{-2} s^{-1})$', orientation = 'horizontal', fraction=0.046, pad=0.04)
 ani = animation.ArtistAnimation(fig, frames, interval=200, blit=True)
 ani.save(rd_path + 'ALIVE_GPP_{day}_{year}.mp4'.format(day=day_start,year= year), writer='ffmpeg') # research drive
-ani.save('/home/shoffman/website_github/alive/images/ALIVE_GPP.mp4', writer='ffmpeg') # website
-#ani.save('/home/shoffman/website_github/alive/images/daily-loops/' + 'ALIVE_GPP_{day}_{year}.mp4'.format(day=day_start,year= year), writer='ffmpeg') # github
+ani.save('/path/to/website_github/ALIVE_GPP.mp4', writer='ffmpeg') # website
 
 print('VIDEO')
 print(float(time.time() - start_time) / 60 , 'minutes')
